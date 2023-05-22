@@ -1,0 +1,20 @@
+
+  .error{
+    color: red !important;
+    font-size: 14px;
+  }
+  textarea{
+    padding: 10px;
+    font-size: 14px !important;
+  }
+  @media only screen and (max-width: 991px) {
+    h3{font-size: 18px !important;} 
+    h2{font-size: 24px !important;}
+  }
+  @media only screen and (max-width: 576px) {
+    h3{font-size: 12px !important;}
+  }
+
+  .min_height{min-height: 74vh;}
+
+  
