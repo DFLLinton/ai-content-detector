@@ -127,7 +127,7 @@ function Home() {
                 <Form >
                   <div className=''>
                     <div className="form-group">
-                      <Field name="textAreaField" as="textarea" rows="12" className="w-100" onKeyUp={handleMessageChange} placeholder="Paste you content here...." ></Field>
+                      <Field name="textAreaField" as="textarea" rows="12" className="w-100" onKeyUp={handleMessageChange} placeholder="Paste your content here...." ></Field>
                       {errors.textAreaField && touched.textAreaField && (
                        <p className='error'> <ErrorMessage name="textAreaField"/></p>
                       )}
